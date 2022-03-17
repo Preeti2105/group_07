@@ -1,15 +1,19 @@
 import React from "react"
+import Features from "../components/Features/Features"
+import Hero from "../components/Hero/Hero"
 import Layout from "../components/Layout/Layout"
+import Team from "../components/Team/Team"
 
 const Index = () => {
-  return 
-  (
-    <Layout>      
-  <div>
-    <div className="card shadow m-2 p-2 text-primary">test</div>
-    <div className="btn btn-warning">OK</div>
-  </div>
-  </Layout>
+  return (
+    <Layout>
+      <Hero/>
+      <Features/>
+      <Team/>
+    </Layout>
   )
 }
+
+export default Index
+
 
